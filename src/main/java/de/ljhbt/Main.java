@@ -19,8 +19,8 @@ public class Main {
         //input = d.getInput(2022, 1, args[0]);
         input = mockInput();
         input.forEach(System.out::println);
-        System.out.println(d.solvePart1(input));
-        System.out.println(d.solvePart2(input));
+        System.out.println("Part 1: \n" + d.solvePart1(input));
+        System.out.println("Part 2: \n" + d.solvePart2(input));
     }
 
     private static List<String> mockInput() {
